@@ -139,13 +139,18 @@
 			"name" 			: "Interface Selector Class",
 			"file_name"		: "InterfaceSelectorClass.cls",
 			"description" 	: "Template for an Apex Selector Interface",
-			"author" 		: "Darrel Stone",
+			"author" 		: "Darrel Stone / Doug Odegaard",
 			"params" 		: [ 
 		        {   
 		            "name"          : "api_name",
 		            "description"   : "Apex Class API Name",
-		            "default" 		: "MyApexClass"
-		        }
+		            "default" 		: "api_name"
+		        },
+				{
+					"name"			: "object_name",
+					"description"	: "API name of the Standard or Custom Object",
+					"default"		: "__c"
+				}
 		   ]
 		},
 		{
