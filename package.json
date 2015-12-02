@@ -150,6 +150,10 @@
 					"name"			: "object_name",
 					"description"	: "API name of the Standard or Custom Object",
 					"default"		: "__c"
+				},
+				{
+					"name"			: "parameter_name",
+					"description"	: "Parameter for getObjectById (camel case)"
 				}
 		   ]
 		},
@@ -183,17 +187,17 @@
 			"name" 			: "SelectorClass",
 			"file_name"		: "SelectorClass.cls",
 			"description" 	: "Apex Enterprise Patterns Selector Class",
-			"author" 		: "Andy Fawcett @andyinthecloud",
+			"author" 		: "Andy Fawcett @andyinthecloud / Doug Odegaard",
 			"params"		: [
 				{
 					"name"			: "api_name",
 					"description"	: "Selector class name (typically plural e.g. AccountsSelector)",
-					"default"		: "InvoicesSelector"
+					"default"		: "Selector"
 				},
 				{
 					"name"			: "object_name",
 					"description"	: "API name of the Standard or Custom Object",
-					"default"		: "Invoice__c"
+					"default"		: "__c"
 				}
 			]
 		},		
